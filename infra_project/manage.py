@@ -5,6 +5,7 @@ import sys
 
 
 def main():
+    """Django's command-line utility for administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'infra_project.settings')
     try:
         from django.core.management import execute_from_command_line

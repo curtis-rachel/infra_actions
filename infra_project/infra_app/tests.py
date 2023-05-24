@@ -1,9 +1,13 @@
+"""Initialisation test."""
 from http import HTTPStatus
 from django.test import Client, TestCase
 
 
 class StaticPagesURLTests(TestCase):
+    """Создание класса для тестирования статических страниц."""
+
     def setUp(self):
+        """Определение сетапа класса."""
         self.guest_client = Client()
 
     def test_about_url_exists_at_desired_location(self):
