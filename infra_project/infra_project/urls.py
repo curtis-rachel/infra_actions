@@ -1,5 +1,5 @@
 """infra_project URL Configuration."""
-from django.urls import path, include
+from django.urls import include, path
 from django.contrib import admin
 
 urlpatterns = [
